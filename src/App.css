@@ -1,3 +1,23 @@
-.App {
-  text-align: center;
+.ownBlock {
+  display: flex;
+  background-color: #f5f3f3;
+  padding-bottom: 1.9%;
+}
+
+.leftSide {
+  background-color: white;
+  border-bottom: 2px solid #e7dfdf;
+}
+
+.leftSide h2 {
+  color: cornflowerblue;
+  font-weight: 400;
+  margin: 5% 5% 10%;
+}
+
+.rightSide {
+  padding: 0;
+  width: 70vw;
+  border-bottom: 2px solid #e7dfdf;
+  overflow-y: initial;
 }
