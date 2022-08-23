@@ -1,0 +1,491 @@
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .chatsHeader {
+    height: 22vh;
+  }
+
+  .checkMarkOnlineImage {
+    top: 45%;
+  }
+
+  .searchInput {
+    margin-top: 2vh;
+  }
+
+  .searchInput::placeholder {
+    font-size: 11px;
+  }
+
+  .leftSide h2 {
+    font-size: 20px;
+  }
+
+  .chats {
+    height: 63.5vh;
+  }
+
+  .chatDescription h3 {
+    font-size: 14px;
+  }
+
+  .chatDescription > div > div > p {
+    font-size: 12px;
+  }
+
+  .chatDescription > p {
+    font-size: 10px;
+  }
+
+  .chatHeader {
+    height: 70px;
+  }
+
+  .chatHeader > h2 {
+    font-size: 20px;
+  }
+
+  .chat {
+    height: 71vh;
+  }
+
+  .message > .userImage {
+    margin-right: 2%;
+  }
+
+  .messageValue {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  .messageDate {
+    font-size: 11px;
+    margin: 8px 0;
+  }
+
+  .messageSending > input::placeholder {
+    font-size: 18px;
+  }
+
+  .messageSending > button > img {
+    width: 1.5vw;
+    top: 35%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .chatsHeader {
+    height: 22vh;
+  }
+
+  .checkMarkOnlineImage {
+    top: 45%;
+  }
+
+  .searchInput {
+    margin-top: 1.5vh;
+  }
+
+  .searchInput::placeholder {
+    font-size: 8px;
+  }
+
+  .leftSide h2 {
+    font-size: 14px;
+  }
+
+  .chats {
+    height: 63.2vh;
+  }
+
+  .chatDescription {
+    padding: 3% 5%;
+  }
+
+  .chatDescription > div {
+    height: 40px;
+  }
+
+  .chatDescription h3 {
+    font-size: 8px;
+  }
+
+  .chatDescription > div > div > p {
+    font-size: 8px;
+  }
+
+  .chatDescription > p {
+    font-size: 7px;
+  }
+
+  .chatHeader {
+    height: 55px;
+  }
+
+  .chatHeader > h2 {
+    font-size: 18px;
+  }
+
+  .chat {
+    height: 70vh;
+  }
+
+  .message > .userImage {
+    padding-top: 2%;
+    margin-right: 2%;
+  }
+
+  .messageValue {
+    font-size: 10px;
+    padding: 8px 12px;
+  }
+
+  .messageDate {
+    font-size: 9px;
+    margin: 6px 0;
+  }
+
+  .messageSending > input::placeholder {
+    font-size: 14px;
+  }
+
+  .messageSending > button > img {
+    width: 1.5vw;
+    top: 35%;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .chatsHeader {
+    width: 40vw;
+    height: 15vh;
+  }
+
+  .userImage {
+    height: 30px;
+  }
+
+  .userInfoImage {
+    width: 7vw;
+  }
+
+  .checkMarkOnlineImage {
+    left: 23px;
+    top: 78%;
+  }
+
+  .searchInput {
+    margin-top: 1.5vh;
+    height: 4vh;
+    background-size: 10px;
+    padding: 0 0 3px 10px;
+  }
+
+  .searchInput::placeholder {
+    font-size: 7px;
+  }
+
+  .leftSide h2 {
+    font-size: 14px;
+  }
+
+  .chats {
+    height: 73.4vh;
+  }
+
+  .chatDescription .userImage {
+    width: 15px;
+  }
+
+  .chatDescription {
+    width: 40vw;
+    padding: 3% 5%;
+  }
+
+  .chatDescription > div {
+    height: 40px;
+  }
+
+  .chatDescription h3 {
+    font-size: 10px;
+  }
+
+  .chatDescription > div > div > p {
+    width: 100px;
+    font-size: 8px;
+  }
+
+  .chatDescription > p {
+    font-size: 7px;
+    left: 30%;
+  }
+
+  .chatHeader {
+    height: 45px;
+  }
+
+  .chatHeader > h2 {
+    font-size: 14px;
+  }
+
+  .chat {
+    height: 79.5vh;
+  }
+
+  .message > .userImage {
+    padding-top: 4%;
+    margin-right: 2%;
+  }
+
+  .messageValue {
+    font-size: 10px;
+    padding: 8px 12px;
+  }
+
+  .messageDate {
+    font-size: 7px;
+    margin: 6px 0;
+  }
+
+  .messageSending > input {
+    width: 90%;
+    height: 26px;
+  }
+
+  .messageSending > input::placeholder {
+    font-size: 10px;
+  }
+
+  .messageSending > button {
+    height: 26px;
+  }
+
+  .messageSending > button > img {
+    width: 2.5vw;
+    top: 25%;
+    right: 30%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .chatsHeader {
+    width: 40vw;
+    height: 15vh;
+  }
+
+  .userImage {
+    height: 30px;
+  }
+
+  .userInfoImage {
+    width: 7vw;
+  }
+
+  .checkMarkOnlineImage {
+    left: 22px;
+    top: 68%;
+  }
+
+  .searchInput {
+    margin-top: 1.5vh;
+    height: 4vh;
+    background-size: 10px;
+    padding: 0 0 3px 10px;
+  }
+
+  .searchInput::placeholder {
+    font-size: 7px;
+  }
+
+  .leftSide h2 {
+    font-size: 14px;
+  }
+
+  .chats {
+    height: 74.2vh;
+  }
+
+  .chatDescription .userImage {
+    width: 12px;
+  }
+
+  .chatDescription {
+    width: 40vw;
+    padding: 3% 5%;
+  }
+
+  .chatDescription > div {
+    height: 40px;
+  }
+
+  .chatDescription h3 {
+    font-size: 10px;
+  }
+
+  .chatDescription > div > div > p {
+    width: 90px;
+    font-size: 7px;
+  }
+
+  .chatDescription > p {
+    font-size: 4px;
+    margin-left: 5px;
+  }
+
+  .chatHeader {
+    height: 45px;
+  }
+
+  .chatHeader > h2 {
+    font-size: 15px;
+  }
+
+  .chat {
+    height: 80vh;
+  }
+
+  .message > .userImage {
+    padding-top: 4%;
+    margin-right: 2%;
+  }
+
+  .messageValue {
+    font-size: 10px;
+    padding: 8px 12px;
+  }
+
+  .messageDate {
+    font-size: 6px;
+    margin: 6px 0;
+  }
+
+  .messageSending > input {
+    width: 90%;
+    height: 26px;
+  }
+
+  .messageSending > input::placeholder {
+    font-size: 10px;
+  }
+
+  .messageSending > button {
+    height: 26px;
+  }
+
+  .messageSending > button > img {
+    width: 2.5vw;
+    top: 25%;
+    right: 30%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .chatsHeader {
+    width: 40vw;
+    height: 15vh;
+  }
+
+  .userImage {
+    height: 30px;
+  }
+
+  .userInfoImage {
+    width: 7vw;
+  }
+
+  .checkMarkOnlineImage {
+    left: 18px;
+    top: 58%;
+  }
+
+  .searchInput {
+    margin-top: 0;
+    height: 4vh;
+    background-size: 10px;
+    padding: 0 0 3px 10px;
+  }
+
+  .searchInput::placeholder {
+    font-size: 7px;
+  }
+
+  .leftSide h2 {
+    font-size: 12px;
+  }
+
+  .chats {
+    height: 74.2vh;
+  }
+
+  .chatDescription .userImage {
+    width: 8px;
+  }
+
+  .chatDescription {
+    width: 40vw;
+    padding: 3% 0 3% 5%;
+  }
+
+  .chatDescription > div {
+    height: 30px;
+  }
+
+  .chatDescription h3 {
+    font-size: 8px;
+  }
+
+  .chatDescription > div > div > p {
+    width: 70px;
+    font-size: 6px;
+  }
+
+  .chatDescription > p {
+    font-size: 4px;
+    margin-left: 5px;
+  }
+
+  /*////////////////////////////////////////////////////////////////////////////*/
+  .chatHeader {
+    height: 35px;
+  }
+
+  .chatHeader > h2 {
+    font-size: 12px;
+  }
+
+  .chat {
+    height: 83vh;
+  }
+
+  .message > .userImage {
+    padding-top: 4%;
+    margin-right: 2%;
+  }
+
+  .messageValue {
+    font-size: 10px;
+    padding: 8px 12px;
+  }
+
+  .messageDate {
+    font-size: 6px;
+    margin: 6px 0;
+  }
+
+  .messageSending > input {
+    width: 90%;
+    height: 26px;
+  }
+
+  .messageSending > input::placeholder {
+    font-size: 10px;
+  }
+
+  .messageSending > button {
+    height: 26px;
+  }
+
+  .messageSending > button > img {
+    width: 2.5vw;
+    top: 35%;
+    right: 30%;
+  }
+}

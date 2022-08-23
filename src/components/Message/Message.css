@@ -1,0 +1,43 @@
+.message {
+  display: flex;
+}
+
+.messageAndDateBlock {
+  max-width: 60%;
+}
+
+.messageValue {
+  margin-bottom: 0;
+  padding: 2vh 1vw;
+  border-radius: 25px;
+}
+
+.ownMessage > div {
+  order: 999;
+  margin-left: auto;
+}
+
+.ownMessage .messageValue {
+  width: auto;
+  background-color: #e1dede;
+}
+
+.ownMessage .messageDate {
+  text-align: right;
+}
+
+.interlocutorMessage .messageValue {
+  width: auto;
+  background-color: #494b40;
+  color: white;
+}
+
+.messageDate {
+  font-size: 12px;
+  color: grey;
+  padding-left: 14px;
+}
+
+.message > .userImageBlock {
+  padding-top: 1.5%;
+}

@@ -1,0 +1,11 @@
+.chatHeader {
+  display: flex;
+  padding: 1%;
+  border-left: 1px solid #e7dfdf;
+}
+
+.chatHeader > h2 {
+  font-size: 30px;
+  margin: 1% 0;
+  font-weight: 500;
+}

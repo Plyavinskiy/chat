@@ -1,0 +1,10 @@
+.chats {
+  height: 56.9vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.chats::-webkit-scrollbar {
+  display: none;
+}

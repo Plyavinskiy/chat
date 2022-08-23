@@ -1,0 +1,44 @@
+.messageSending {
+  padding: 3%;
+  border-left: 1px solid #e7dfdf;
+}
+
+.messageSending > input {
+  width: 60vw;
+  height: 8vh;
+  padding-left: 2%;
+  border: 1px solid #e7dfdf;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+  outline-width: 0;
+}
+
+.messageSending > input::placeholder {
+  font-size: 20px;
+}
+
+.messageSending > button {
+  position: absolute;
+  width: 5vw;
+  height: 8vh;
+  padding: 0;
+  border: 1px solid #e7dfdf;
+  border-radius: 0 20px 20px 0;
+  border-left: none;
+  font: inherit;
+  color: white;
+  background-color: white;
+  transition: 300ms;
+}
+
+.messageSending > button > img {
+  position: absolute;
+  width: 1.5vw;
+  top: 30%;
+  background-color: white;
+  border-radius: 0 20px 20px 0;
+}
+
+.messageSending > button > img:active {
+  transform: scale(1.2);
+}

@@ -1,0 +1,17 @@
+.userImage {
+  position: relative;
+  height: 10vh;
+  margin-right: 20px;
+}
+
+.checkMarkOnlineImage {
+  position: absolute;
+  width: 1.4vw;
+  top: 55%;
+  left: 3vw;
+}
+
+.userInfoImage {
+  border-radius: 50px;
+  width: 4vw;
+}
