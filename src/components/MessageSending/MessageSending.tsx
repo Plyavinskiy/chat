@@ -1,5 +1,6 @@
 import "./MessageSending.css";
 import useMessageSending from "./useMessageSending";
+import send from "../../assets/images/send.png";
 
 const MessageSending = () => {
   const { handleChange, handleSendButtonClick, handleKeyPress, inputValue } =
@@ -15,10 +16,7 @@ const MessageSending = () => {
         onChange={handleChange}
       />
       <button onClick={handleSendButtonClick} type="button">
-        <img
-          src="https://cdn.icon-icons.com/icons2/1509/PNG/512/documentsend_104490.png"
-          alt=""
-        />
+        <img src={send} alt="Send button" />
       </button>
     </div>
   );
